@@ -1,14 +1,14 @@
-/* Reset */
+/* 🌸 RESET DASAR */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Dasar */
+/* 🌸 BODY */
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #ff4b5c, #ffffff);
+    background: linear-gradient(135deg, #ff7eb3, #ff758c, #ffffff);
     background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
@@ -21,9 +21,10 @@ body {
     padding: 20px;
 }
 
+/* 🌸 CONTAINER */
 .container {
     max-width: 480px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(26, 34, 122, 0.8);
     border-radius: 20px;
     padding: 30px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -31,7 +32,7 @@ body {
     text-align: center;
 }
 
-/* Header */
+/* 🌸 FOTO PROFIL */
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -48,6 +49,7 @@ body {
     object-fit: cover;
 }
 
+/* 🌸 TEKS UTAMA */
 h1 {
     font-size: 1.7rem;
     margin-bottom: 10px;
@@ -60,7 +62,7 @@ h1 {
     margin-bottom: 25px;
 }
 
-/* Tombol link */
+/* 🌸 LINK BUTTON */
 .links {
     display: flex;
     flex-direction: column;
@@ -86,13 +88,13 @@ h1 {
     margin-right: 10px;
 }
 
-/* Efek Hover */
+/* 🌸 EFEK HOVER */
 .link-button:hover {
     transform: translateY(-3px);
     color: white;
 }
 
-/* Warna masing-masing */
+/* 🌸 WARNA TIAP PLATFORM */
 .instagram { border-left: 4px solid #e1306c; }
 .instagram:hover { background-color: #e1306c; }
 
@@ -105,17 +107,20 @@ h1 {
 .facebook { border-left: 4px solid #1877f2; }
 .facebook:hover { background-color: #1877f2; }
 
+.spotify { border-left: 4px solid #1DB954; }
+.spotify:hover { background-color: #1DB954; }
+
 .maps { border-left: 4px solid #34a853; }
 .maps:hover { background-color: #34a853; }
 
-/* Footer */
+/* 🌸 FOOTER */
 footer {
     margin-top: 25px;
     font-size: 0.8rem;
     color: #555;
 }
 
-/* Responsif */
+/* 🌸 RESPONSIF UNTUK HP */
 @media (max-width: 480px) {
     .profile-pic {
         width: 120px;
