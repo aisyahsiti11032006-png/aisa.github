@@ -1,2 +1,0 @@
-# aisyah
-sif 2
